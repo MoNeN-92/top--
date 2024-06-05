@@ -36,28 +36,17 @@ let index = 0;
 
 window.addEventListener("DOMContentLoaded", function() {
     showData();
-    setInterval(showNextImage, 5000); // Change image every 3 seconds
+    setInterval(showNextImage, 5000); 
 });
 
 function showData() {
-    const items = carousel[index];
-    img.src = items.img;
-    names.textContent = items.name;
-    text.textContent = items.text;
+    const item = carousel[index];
+    img.src = item.img;
+    names.textContent = item.name;
+    text.textContent = item.text;
 }
 
 function showNextImage() {
-    index = (index + 1) % carousel.length; // Increment index and wrap around
-    showData();
-}
-
-window.addEventListener('scroll', function() {
-    if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
-        resetCarousel(); // Reset carousel at the bottom of the page
-    }
-});
-
-function resetCarousel() {
-    index = 0;
+    index = (index + 1) % carousel.length;
     showData();
 }
