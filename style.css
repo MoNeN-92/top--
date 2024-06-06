@@ -47,7 +47,7 @@ body {
     }
 }
 .maps {
-    width: 60%;
+    width: 100%;
     height: 600px; /* Adjust height as needed */
     border: none; /* Remove border for a cleaner look */
 }
@@ -78,9 +78,154 @@ body {
 }
 .gan-frame{
     width: 100%;
-    height: 600px;
+    height: 700px;
 }
 
 .heightt{
     height: 450px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-section {
+    flex: 1;
+    padding: 0 20px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.footer-section p,
+.footer-section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section ul li a:hover {
+    color: #ccc;
+}
+
+.social-media {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-media li {
+    margin-right: 10px;
+}
+
+.social-media li a {
+    display: block;
+    width: 32px;
+    height: 32px;
+}
+
+.social-media li a img {
+    width: 100%;
+    height: 100%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #222;
+    color: #ccc;
+    font-size: 14px;
+}
+.footer{
+    padding:10px 0px 0px 0px!important;
+}
+@media (max-width: 768px) {
+    .footer .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        flex: 1 1 100%;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .social-media {
+        justify-content: center;
+    }
+    .footer{
+        margin-bottom: 300px!important;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-section {
+        padding: 0 10px;
+    }
+
+    .footer-section h4 {
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+}
+.special{
+    font-size: 2.5rem; /* You can adjust the size as needed */
+    color: #333; /* Set your desired color */
+    line-height: 1.5; /* Adjust the line height for better readability */
+    text-align: center; /* Center align the text */
+    margin-top: 20px; /* Add top margin */
+    margin-bottom: 20px; /* Add bottom margin */ 
+}
+.active {
+    /* font-weight: 800!important; */
+    color: #FFF!important;
+    box-shadow: #fff 2px 2px 2px 2px;
+    border-radius: 7px;
+}
+.social-media i {
+    cursor: pointer;
+}
+a{
+    color: inherit!important ; /* Inherit the color from the parent element */
+    text-decoration: none!important ; /* Remove underline */
+    font-family: inherit!important ; /* Inherit the font family from the parent element */
+    font-size: inherit!important ; /* Inherit the font size from the parent element */
+}
+
+.footer a:hover {
+    color: #007bff!important ; /* Change color on hover (optional) */
+    text-decoration: underline!important ; /* Add underline on hover (optional) */
 }
