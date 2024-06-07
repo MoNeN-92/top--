@@ -10,9 +10,17 @@ body {
     padding: 1rem;
     background-color: #f8f9fa; /* Bootstrap's light background color */
 }
-
+.nav-item a {
+    font-size: 35px!important;
+    padding: 0px 40px!important;
+}
 .logo img {
     height: 50px; /* Adjust logo size as needed */
+}
+.navbar-brand img {
+    width: 75px;
+    height: 75px;
+    border-radius: 10px;
 }
 
 .list-container ul {
@@ -57,10 +65,10 @@ body {
     display: flex;
 }
 .mycontainer-item img{
-    width: 50%;
+    width: 100%;
 }
 .mycontainer-item{
-    width: 50%;
+    width: 100%;
 }
 .mycontainer-item ul li{
     cursor: pointer;
@@ -72,6 +80,8 @@ body {
        color: black;
        border: none;
 }
+
+
 
 @media (max-width: 768px) {
     .mycontainer-item{
@@ -211,6 +221,9 @@ body {
         font-size: 12px;
     }
 }
+.bg-bluu {
+    background-color: #003285;
+}
 .special{
     font-size: 2.5rem; /* You can adjust the size as needed */
     color: #333; /* Set your desired color */
@@ -222,7 +235,7 @@ body {
 .active {
     /* font-weight: 800!important; */
     color: #FFF!important;
-    box-shadow: #fff 2px 2px 2px 2px;
+    box-shadow: #FF7F3E 1px 1px 10px 3px;
     border-radius: 7px;
 }
 .social-media i {
@@ -238,4 +251,31 @@ a{
 .footer a:hover {
     color: #007bff!important ; /* Change color on hover (optional) */
     text-decoration: underline!important ; /* Add underline on hover (optional) */
+}
+
+.tooltip-custom {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip-custom .tooltiptext {
+    visibility: hidden;
+    width: 300px;
+    background-color: #003285;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 8px 16px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%; /* Position the tooltip above the button */
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip-custom:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
 }
