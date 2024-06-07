@@ -63,11 +63,21 @@ body {
     width: 50%;
 }
 .mycontainer-item ul li{
-    width: 90px;
     cursor: pointer;
+    text-align: start;
+}
+.mycontainer-item button{
+    margin: 5px 0px;
+       background-color: inherit;
+       color: black;
+       border: none;
 }
 
 @media (max-width: 768px) {
+    .mycontainer-item{
+        width: 100%;
+    }
+
     .services-container{
         flex-direction: column!important;
     }
