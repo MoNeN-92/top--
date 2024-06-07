@@ -65,12 +65,12 @@ function openMessenger() {
     // Check if the user agent is iOS or Android
     if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
         // iOS
-        window.location.href = 'fb-messenger://user-thread/{USER_ID}';
+        window.location.href = 'fb-messenger://user-thread/{61557384877437}';
     } else if (/android/i.test(userAgent)) {
         // Android
-        window.location.href = 'intent://user-thread/{USER_ID}#Intent;package=com.facebook.orca;scheme=fb-messenger;end';
+        window.location.href = 'intent://user-thread/{61557384877437}#Intent;package=com.facebook.orca;scheme=fb-messenger;end';
     } else {
         // If neither iOS nor Android, open in browser
-        window.open('https://www.messenger.com/t/{USER_ID}');
+        window.open('https://www.messenger.com/t/{61557384877437}');
     }
 }
