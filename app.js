@@ -59,3 +59,18 @@
 // }
 
 
+function openMessenger() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    // Check if the user agent is iOS or Android
+    if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
+        // iOS
+        window.location.href = 'fb-messenger://user-thread/{USER_ID}';
+    } else if (/android/i.test(userAgent)) {
+        // Android
+        window.location.href = 'intent://user-thread/{USER_ID}#Intent;package=com.facebook.orca;scheme=fb-messenger;end';
+    } else {
+        // If neither iOS nor Android, open in browser
+        window.open('https://www.messenger.com/t/{USER_ID}');
+    }
+}
