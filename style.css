@@ -193,9 +193,9 @@ body {
     .social-media {
         justify-content: center;
     }
-    .footer{
+    /* .footer{
         margin-bottom: 300px!important;
-    }
+    } */
 }
 
 @media (max-width: 480px) {
