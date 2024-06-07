@@ -80,7 +80,15 @@ body {
        color: black;
        border: none;
 }
+.mycontainer-item:first-child {
+    width: 30%;
+}
 
+.mycontainer-item:last-child {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+}
 
 
 @media (max-width: 768px) {
@@ -111,7 +119,7 @@ body {
 }
 
 .footer {
-    background-color: #333;
+    background-color: #003285;
     color: #fff;
     padding: 20px 0;
 }
@@ -181,7 +189,7 @@ body {
 .footer-bottom {
     text-align: center;
     padding: 10px 0;
-    background-color: #222;
+    background-color: #2A629A;
     color: #ccc;
     font-size: 14px;
 }
@@ -249,7 +257,7 @@ a{
 }
 
 .footer a:hover {
-    color: #007bff!important ; /* Change color on hover (optional) */
+    color: #FF7F3E!important ; /* Change color on hover (optional) */
     text-decoration: underline!important ; /* Add underline on hover (optional) */
 }
 
