@@ -74,3 +74,19 @@
 //         window.open('https://www.messenger.com/t/{61557384877437}');
 //     }
 // }
+
+
+
+
+    // // Get the modal
+    // var modal = document.getElementById('myModal');
+
+    // // Get the button that opens the modal
+    // var btn = document.getElementById("openModalBtn");
+    // // When the page loads, open the modal
+    // window.onload = function() {
+    //     modal.style.display = "block";
+        
+    // }
+
+    // var span = document.getElementsByClassName("close")[0];
