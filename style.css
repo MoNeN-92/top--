@@ -336,3 +336,14 @@ a{
 .bg-green{
     color: green;
 }
+.tag-h1 h1{
+    text-align: center;
+
+    
+}
+
+.tag-h1 {
+    text-align: center;
+    background-color: #f8f8f8;
+    border: 1px solid #cccccc;
+}
