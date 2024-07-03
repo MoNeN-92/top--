@@ -1,0 +1,42 @@
+topgraph.ge თქვენი ჰოსტინგ პაკეტი შექმნილია.
+
+
+ძვირფასო beqa
+
+მოხარულები ვართ ჩვენ რომ აგვირჩიეთ! თქვენი ჰოსტინგ ანგარიში მზადაა, ეს წერილი კი შეიცავს ყველა საჭირო ინფორმაციას, რომელიც მისი მართვისთვის გამოგადგებათ.
+
+გთხოვთ სრულად გაეცანით წერილს და შეინახეთ!
+
+ახალი ანგარიშის დეტალები:
+ჰოსტინგის პაკეტი: Hosting
+დომენი: topgraph.ge
+პირველი გადახდის ოდენობა: 12.00
+გადახდის ციკლურობა: 1 თვე
+
+სისტემაში შესასვლელად საჭირო მონაცემები:
+Username: topgraphgea8e
+Password:itvOMp52KXacoy
+საკონტროლო პანელის მისამართი: https://host0.domenebi.ge:2083/, დომენის მიბმის შემდგომ, შეგიძლიათ გამოიყენოთ შემდეგი მისამართი: https://topgraph.ge:2083/
+
+ინფორმაცია სერვერის შესახებ:
+სერვერის დასახელება: host0.domenebi.ge
+სერვერის IP: 80.241.247.52
+ჰოსტთან დასაკავშირებლად დომენს უნდა ჰქონდეს გაწერილი შემდეგი ns-ები:
+Nameserver 1: ns11.domenebi.ge
+Nameserver 2: ns22.domenebi.ge
+
+საიტის ატვირთვა:
+SFTP Hostname: 80.241.247.52
+Server Type: SFTP - SSH File Transfer Protocol
+FTP Username: topgraphgea8e
+FTP Password: itvOMp52KXacoy
+
+ელ.ფოსტის პარამეტრები:
+საფოსტო პროგრამაში (მაგ. Microsoft Outlook, The bat, Outlook Express, Thunderbird და ა.შ) თქვენი ელ.ფოსტის დამატებისთვის გამოიყენეთ შემდეგი მონაცემები:
+Username: ელ.ფოსტა, რომლის შემოწმებაც გსურთ
+Password: პაროლი, რომელსაც საკონტროლო პანელში იყენებთ
+Incoming Server: mail.topgraph.ge POP3 Port: 995
+Outgoing Server: mail.topgraph.ge SMTP Port: 465
+We recommend using POP3 over SSL/TLS or IMAP over SSL/TLS since they provide increased security for your interactions with the remote mail server.
+
+ვებმეილის მისამართი: topgraph.ge/webmail
