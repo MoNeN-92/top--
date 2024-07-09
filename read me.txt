@@ -15,7 +15,7 @@ topgraph.ge თქვენი ჰოსტინგ პაკეტი შე�
 
 სისტემაში შესასვლელად საჭირო მონაცემები:
 Username: topgraphgea8e
-Password:itvOMp52KXacoy
+Password: itvOMp52KXacoy
 საკონტროლო პანელის მისამართი: https://host0.domenebi.ge:2083/, დომენის მიბმის შემდგომ, შეგიძლიათ გამოიყენოთ შემდეგი მისამართი: https://topgraph.ge:2083/
 
 ინფორმაცია სერვერის შესახებ:
@@ -40,3 +40,5 @@ Outgoing Server: mail.topgraph.ge SMTP Port: 465
 We recommend using POP3 over SSL/TLS or IMAP over SSL/TLS since they provide increased security for your interactions with the remote mail server.
 
 ვებმეილის მისამართი: topgraph.ge/webmail
+help@topgraph.ge
+PrLFEt+uJ!R]

@@ -90,3 +90,11 @@
     // }
 
     // var span = document.getElementsByClassName("close")[0];
+
+    function scrollToSection(event) {
+        event.preventDefault()
+        var section = document.querySelector(event.target.getAttribute('href'))
+        section.scrollIntoView({ behavior: 'smooth' })
+      }
+
+      

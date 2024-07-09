@@ -1,31 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@100..900&display=swap');
+
+
+body {
+    font-family: 'Everywhere', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Everywhere', sans-serif;
+}
+
 body {
     margin: 0;
     padding: 0;
 }
+
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem;
-    background-color: #f8f9fa; /* Bootstrap's light background color */
+    background-color: #f8f9fa;
+    /* Bootstrap's light background color */
 }
+
 .nav-item a {
-    font-size: 35px!important;
-    padding: 0px 40px!important;
+    font-size: 20px !important;
+    padding: 0px 40px !important;
 }
+
 .logo img {
-    height: 50px; /* Adjust logo size as needed */
+    height: 50px;
+   
 }
+
+
 .navbar-brand img {
     width: 75px;
     height: 75px;
     border-radius: 10px;
 }
+.navbar-brand{
+    padding: 0px!important;
+}
 
 .list-container ul {
     display: flex;
-    list-style-type: none; /* Remove default bullets from list */
+    list-style-type: none;
+    /* Remove default bullets from list */
     margin: 0;
     padding: 0;
 }
@@ -35,8 +62,10 @@ body {
 }
 
 .list-container a {
-    text-decoration: none; /* Remove underline from links */
-    color: inherit; /* Inherit color from parent element */
+    text-decoration: none;
+    /* Remove underline from links */
+    color: inherit;
+    /* Inherit color from parent element */
 }
 
 @media (max-width: 768px) {
@@ -44,42 +73,55 @@ body {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
+    .nav-item a {
+        padding: 0px 0px !important;
+    }
+
     .list-container ul {
         flex-direction: column;
         align-items: flex-start;
     }
-    
+
     .list-container li {
         margin: 10px 0;
     }
 }
+
 .maps {
     width: 100%;
-    height: 600px; /* Adjust height as needed */
-    border: none; /* Remove border for a cleaner look */
+    height: 600px;
+    /* Adjust height as needed */
+    border: none;
+    /* Remove border for a cleaner look */
 }
-.map-container{
+
+.map-container {
     justify-items: center;
     justify-content: center;
     display: flex;
 }
-.mycontainer-item img{
+
+.mycontainer-item img {
     width: 100%;
 }
-.mycontainer-item{
+
+.mycontainer-item {
     width: 100%;
 }
-.mycontainer-item ul li{
+
+.mycontainer-item ul li {
     cursor: pointer;
     text-align: start;
 }
-.mycontainer-item button{
+
+.mycontainer-item button {
     margin: 5px 0px;
-       background-color: inherit;
-       color: black;
-       border: none;
+    background-color: inherit;
+    color: black;
+    border: none;
 }
+
 .mycontainer-item:first-child {
     width: 30%;
 }
@@ -92,30 +134,33 @@ body {
 
 
 @media (max-width: 768px) {
-    .mycontainer-item{
-        width: 100%;
+    .mycontainer-item {
+        width: 100% !important;
     }
 
-    .services-container{
-        flex-direction: column!important;
+    .services-container {
+        flex-direction: column !important;
     }
-    .maps{
+
+    .maps {
         width: 100%;
         height: 300px;
     }
+
     .tooltip-custom:hover .tooltiptext {
         visibility: visible;
         display: none;
         opacity: 1;
-        
+
     }
 }
-.gan-frame{
+
+.gan-frame {
     width: 100%;
     height: 700px;
 }
 
-.heightt{
+.heightt {
     height: 450px;
 }
 
@@ -128,7 +173,11 @@ body {
     background-color: #003285;
     color: #fff;
     padding: 20px 0;
-    
+
+}
+
+.text-slid {
+    color: #003285;
 }
 
 .footer .container {
@@ -154,7 +203,8 @@ body {
 .footer-section ul {
     margin: 0;
     padding: 0;
-    list-style: none;
+    /* list-style: none; */
+    list-style-type: none;
 }
 
 .footer-section ul li {
@@ -197,12 +247,18 @@ body {
     text-align: center;
     padding: 10px 0;
     background-color: #2A629A;
-    color: #ccc;
+    color: #fff;
     font-size: 14px;
 }
-.footer{
-    padding:10px 0px 0px 0px!important;
+
+.footer {
+    padding: 10px 0px 0px 0px !important;
 }
+
+.carousel-item img {
+    object-fit: cover;
+}
+
 @media (max-width: 768px) {
     .footer .container {
         flex-direction: column;
@@ -218,9 +274,13 @@ body {
     .social-media {
         justify-content: center;
     }
+
     /* .footer{
         margin-bottom: 300px!important;
     } */
+    #contact {
+        width: 100% !important;
+    }
 }
 
 @media (max-width: 480px) {
@@ -236,36 +296,46 @@ body {
         font-size: 12px;
     }
 }
+
 .bg-bluu {
     background-color: #003285;
 }
-.special{
-    font-size: 2.5rem; /* You can adjust the size as needed */
-    color: #333; /* Set your desired color */
-    line-height: 1.5; /* Adjust the line height for better readability */
-    text-align: center; /* Center align the text */
-    margin-top: 20px; /* Add top margin */
-    margin-bottom: 20px; /* Add bottom margin */ 
+
+.special {
+    font-size: 2.5rem;
+    /* You can adjust the size as needed */
+    color: #333;
+    /* Set your desired color */
+    line-height: 1.5;
+    /* Adjust the line height for better readability */
+    text-align: center;
+    /* Center align the text */
+    margin-top: 20px;
+    /* Add top margin */
+    margin-bottom: 20px;
+    /* Add bottom margin */
 }
-.active {
-    /* font-weight: 800!important; */
+
+/* .active {
+   
     color: #FFF!important;
     box-shadow: #FF7F3E 1px 1px 10px 3px;
     border-radius: 7px;
-}
+} */
 .social-media i {
     cursor: pointer;
 }
-a{
-    color: inherit!important ; /* Inherit the color from the parent element */
-    text-decoration: none!important ; /* Remove underline */
-    font-family: inherit!important ; /* Inherit the font family from the parent element */
-    font-size: inherit!important ; /* Inherit the font size from the parent element */
+
+a {
+    color: inherit !important;
+    text-decoration: none !important;
+    font-family: inherit !important;
+    font-size: inherit !important;
 }
 
 .footer a:hover {
-    color: #FF7F3E!important ; /* Change color on hover (optional) */
-    text-decoration: underline!important ; /* Add underline on hover (optional) */
+    color: #FF7F3E !important;
+    text-decoration: underline !important;
 }
 
 .tooltip-custom {
@@ -283,7 +353,7 @@ a{
     padding: 8px 16px;
     position: absolute;
     z-index: 1;
-    bottom: 125%; /* Position the tooltip above the button */
+    bottom: 125%;
     left: 50%;
     transform: translateX(-50%);
     opacity: 0;
@@ -295,16 +365,16 @@ a{
     opacity: 1;
     align-items: center;
 }
-.text-orang{
+
+.text-orang {
     color: white;
     background-color: black;
 }
 
-.text-red{
-    color: red!important;
+.text-red {
+    color: red !important;
 }
 
-/* Modal Styling */
 .modal {
     display: none;
     position: fixed;
@@ -316,6 +386,7 @@ a{
     overflow: auto;
     background-color: rgba(0, 0, 0, 0.4);
 }
+
 .modal-content {
     background-color: #fefefe;
     margin: 15% auto;
@@ -326,20 +397,35 @@ a{
     animation-name: modalopen;
     animation-duration: 0.3s;
 }
+
 @keyframes modalopen {
-    from {opacity: 0}
-    to {opacity: 1}
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
 }
-.vh-100{
+
+.vh-100 {
     height: 100%;
 }
-.bg-green{
-    color: green;
-}
-.tag-h1 h1{
-    text-align: center;
 
-    
+.bg-green {
+    color: #25D366;
+}
+
+.tag-h1 h1 {
+    text-align: center;
+}
+
+.vib-col {
+    color: #7360F2;
+}
+
+.tel-color {
+    color: #24A1DE;
 }
 
 .tag-h1 {
@@ -347,4 +433,9 @@ a{
     background-color: #f8f8f8;
     border: 1px solid #cccccc;
     padding: 7px;
+}
+
+.soc-icon {
+    width: 40px;
+    list-style-type: none;
 }
